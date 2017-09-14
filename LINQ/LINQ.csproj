@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SqlInterface\SqlInterface\SqlInterface.csproj">
+      <Project>{836d7217-f6fb-49ce-a782-336ac6774d41}</Project>
+      <Name>SqlInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
